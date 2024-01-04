@@ -1,0 +1,43 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.todolist{
+ 
+  margin-top: 40px;
+  font-size: 40px;
+  font-weight: 700;
+}
+.main{
+  /* background-color: aqua; */
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ 
+  margin: 40px;
+  
+}
+.main-box{
+  /* background-color: cadetblue; */
+  height: 90px;
+  width: 80%;
+  justify-content: space-evenly;
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  }
+ .main-input input{
+  padding: 10px;
+  width: 200%;
+ }
+ .main-box button{
+  padding: 10px;
+  width: 100px;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: green;
+  position: fixed;
+ }
