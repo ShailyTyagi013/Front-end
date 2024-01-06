@@ -13,8 +13,8 @@ function App() {
     <center className='todolist'>TODO LIST</center>
     <div className='main'>
     <Todolist></Todolist>
-    <TodoItems></TodoItems>
-    <TodoItems></TodoItems>
+    <TodoItems todoName={"go to school"} todoDate={"6/01/24"}></TodoItems>
+    <TodoItems todoName={"complete the homework"} todoDate={"6/01/24"}></TodoItems>
 
     </div>
     
