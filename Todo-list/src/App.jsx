@@ -3,19 +3,39 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import Todolist from './component/Todolist'
-import TodoItems from './component/TodoItems'
+import TodoItem from './component/TodoItem'
 
 
 function App() {
+
+  const todoItems = [{
+      Name: "Go to Office",
+      Date: "7/01/24"
+  },
+
+  {
+    Name: "Come back home",
+    Date: "7/01/24"
+  },
+  {
+    Name: "eat dinner",
+    Date: "7/01/24"
+  },
+  {
+    Name: "Go to bed",
+    Date: "7/01/24"
+  }
+
+];
 
   return (
     <>
     <center className='todolist'>TODO LIST</center>
     <div className='main'>
     <Todolist></Todolist>
-    <TodoItems todoName={"go to school"} todoDate={"6/01/24"}></TodoItems>
-    <TodoItems todoName={"complete the homework"} todoDate={"6/01/24"}></TodoItems>
-
+    <TodoItem todoItems={todoItems}></TodoItem>
+    
+    
     </div>
     
     
