@@ -4,13 +4,14 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Todolist from './component/Todolist'
 import TodoItem from './component/TodoItem'
+import Dibba from './component/Dibba'
 
 
 function App() {
 
   const todoItems = [{
-      Name: "Go to Office",
-      Date: "7/01/24"
+    Name: "Go to Office",
+    Date: "7/01/24"
   },
 
   {
@@ -26,20 +27,20 @@ function App() {
     Date: "7/01/24"
   }
 
-];
+  ];
 
   return (
     <>
-    <center className='todolist'>TODO LIST</center>
-    <div className='main'>
-    <Todolist></Todolist>
-    <TodoItem todoItems={todoItems}></TodoItem>
-    
-    
-    </div>
-    
-    
-          </>
+      <Dibba>
+      <center className='todolist'>TODO LIST</center>
+      <div className='main'>
+        <Todolist></Todolist>
+        <TodoItem todoItems={todoItems}></TodoItem>
+      </div>
+
+      </Dibba>
+
+    </>
   )
 }
 
