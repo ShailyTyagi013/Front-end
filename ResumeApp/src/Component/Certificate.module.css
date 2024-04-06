@@ -1,0 +1,107 @@
+.mainbox {
+    /* background-color: black; */
+    background-image: linear-gradient(#f7ecf3, #ead4e5);
+    width: 100%;
+    height: 94vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    flex-direction: column;
+
+
+}
+
+.mainbox2 {
+    /* background-color: bisque; */
+    background-color: rgb(246, 225, 246);
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+    /* display: flex;
+    flex-direction: column; */
+    display: inline-block;
+    border-radius: 10px;
+    width: 50vw;
+    height: 60vh;
+    padding: 10px;
+
+
+
+
+}
+
+.mainbox3 {
+    /* background-color: green; */
+    /* display: inline-block; */
+
+    width: 100%;
+    height: 20%;
+    text-align: center;
+
+}
+
+.mainbox3 input {
+    width: 40%;
+    padding: 10px;
+    margin: 20px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+}
+
+.btn2 {
+    padding: 10px;
+    width: 100px;
+    float: right;
+    margin: 20px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    background-color: rgb(11, 30, 30);
+}
+
+.btn2:hover {
+    background-color: rgb(78, 132, 132);
+    color: black;
+}
+
+.skillbox {
+    /* background-color: aqua; */
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+
+
+}
+
+.skillbox input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+
+}
+
+.btn {
+    text-align: center;
+    /* background-color: pink; */
+
+}
+
+.btn button {
+    padding: 10px;
+
+    margin: 20px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    font-size: 18px;
+
+    color: white;
+    background-color: rgb(11, 30, 30);
+}

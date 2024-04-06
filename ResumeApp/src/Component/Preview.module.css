@@ -1,0 +1,131 @@
+.mainbox{
+    background-color: gray;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mainbox2{
+    margin-top: 20px;
+    /* background-color: aqua; */
+    background-color: white;
+    display: inline-block;
+    width: 60%;
+    height: 100%;
+    padding: 10px;
+    
+  
+   
+}
+hr{
+    color: black;
+    margin: 5px 20px;
+}
+.intro{
+    /* background-color: chartreuse; */
+    display: inline-block;
+   margin: 0px 30%;
+    text-align: center;
+    color: black;
+    
+
+}
+.intro2{
+    /* background-color: palevioletred; */
+    width: 90%;
+    height: 20%;
+    display: inline-block;
+    margin: 0px 50px;
+    
+    
+}
+.intro2 h5{
+    font-size: 18px;
+    color: black;
+}
+.intro2 p{
+    padding:  5px 20px;
+    color: black;
+}
+.secbox{
+    /* background-color: blueviolet; */
+    width: 90%;
+    height: 20%;
+    display: inline-block;
+    margin: 0px 50px;
+}
+/* .disbox{
+    background-color: green;
+
+} */
+.disbox p{
+    padding: 10px 0px;
+}
+.disbox h3{
+    padding: 0px 10px;
+}
+#job{
+    padding: 0px 20px;
+
+}
+.edubox{
+    /* background-color: pink; */
+    margin: 0px 50px;
+}
+.edubox2{
+    /* background-color: chartreuse; */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+.databox{
+    /* background-color: navy; */
+    margin-left: 20px;
+    text-align: center;
+}
+.locationbox{
+    /* background-color: purple; */
+   text-align: center;
+   margin-right: 20px;
+}
+.cerbox{
+    /* background-color: red; */
+    margin: 0px 50px;
+}
+.cerdata{
+    /* background-color: yellow; */
+    display: inline-block;
+    width: 20%;
+    padding-left: 20px;
+}
+
+.downloadbtn{
+    padding: 10px;
+    /* width: 100px;
+    float: right; */
+    margin: 20px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    /* font-weight: 700; */
+    color: white;
+   background-color: rgb(11, 30, 30);
+}
+
+.skillbox{
+    /* background-color: red; */
+    margin: 0px 50px;
+    
+    
+}
+.techskill{
+    /* background-color: yellow; */
+    margin: 10px 0px;
+}
+.interskill{
+    /* background-color: green; */
+    margin: 10px 0px;
+}
