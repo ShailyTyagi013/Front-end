@@ -16,7 +16,7 @@ function Experience({curValue, setCurvalue}) {
         setUsers([...users, 'template'])
     };
 
-    //@TODO- bind the form object and pust into array
+    //@TODO- bind the form object and push into array
     // const inputEvent = (event) => {
     //     const {name, value} = event.target; 
     //     setCurvalue({
@@ -77,7 +77,7 @@ function Experience({curValue, setCurvalue}) {
 
                     </div>
                 </form>
-                {/****** WORK EXPERIENCE FORM START END ******/}
+                {/****** WORK EXPERIENCE FORM END ******/}
             </div>
         </>
     )
